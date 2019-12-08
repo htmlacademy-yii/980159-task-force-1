@@ -1,10 +1,10 @@
 <?php
 
-namespace app\components\taskloader;
+namespace app\components\TaskLoader;
 
 use Yii;
 
-class TaskLoader
+class GetTaskStatus
 {
     const ACTION_NEW
         = [
