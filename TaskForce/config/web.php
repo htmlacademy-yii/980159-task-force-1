@@ -12,9 +12,10 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
+        'getTaskStatus' => ['class' => 'app\components\GetTaskStatus'],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'w3743H5nwWNXhCHtVbh5moBLZ3YyM46-',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -43,14 +44,14 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/' => 'site/index',
+                '<action:\w+>' => 'site/<action>',
             ],
         ],
-        */
     ],
     'params' => $params,
 ];

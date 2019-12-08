@@ -1,12 +1,12 @@
 {
-  "name": "vendor_name/package_name",
-  "description": "description_text",
+  "name": "zoorg/taskforce",
+  "description": "Онлайн площадка для поиска исполнителей на разовые задачи",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "author's name",
-      "email": "email@example.com"
+      "name": "Никита Быстров",
+      "email": "zoorg71@gmail.com"
     }
   ]
 }
