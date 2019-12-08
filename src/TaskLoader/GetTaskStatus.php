@@ -1,8 +1,6 @@
 <?php
 
-namespace app\components\TaskLoader;
-
-use Yii;
+namespace TaskLoader;
 
 class GetTaskStatus
 {
