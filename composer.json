@@ -1,0 +1,17 @@
+{
+  "name": "zoorg/taskforce",
+  "description": "Онлайн площадка для поиска исполнителей на разовые задачи",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Никита Быстров",
+      "email": "zoorg71@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TaskLoader\\": "src/"
+    }
+  }
+}
